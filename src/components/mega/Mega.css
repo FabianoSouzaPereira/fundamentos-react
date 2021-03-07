@@ -1,0 +1,35 @@
+.Mega{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1rem;
+
+}
+
+.Mega h3{
+  margin-top: 5xp;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.Mega div > label{
+  color: blue;
+}
+
+.Mega div > input{
+  flex: 1;
+  max-width: 80px;
+  margin: 5px 100px 0px 100px;
+}
+
+.Mega button{
+  flex: 1;
+  width: 80px;
+  color:aliceblue;
+  max-width: 200px;
+  margin: 15px 100px 20px 100px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid rgb(13, 148, 24);;
+  background-color: rgb(13, 148, 24);
+}
